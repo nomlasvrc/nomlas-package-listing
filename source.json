@@ -1,20 +1,20 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "name":"のむらすのVPMリスト",
+    "id":"com.nomlas.vpm-listing",
+    "url":"https://nomlasvrc.github.io/nomlas-package-listing/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email":"nomlasv@gmail.com",
+        "name":"nomlas",
+        "url":""
     },
-    "description":"Example listing of VRChat packages",
+    "description":"VPM listing of nomlas's packages",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+        "url":"http://github.com/nomlasvrc/nomlas-package-listing",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "vrchat-community/clientsim"
+        "nomlasvrc/TopazChat"
     ],
     "packages":[
         {
