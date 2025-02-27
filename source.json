@@ -3,9 +3,8 @@
     "id":"com.nomlas.vpm-listing",
     "url":"https://nomlasvrc.github.io/nomlas-package-listing/index.json",
     "author":{
-        "email":"nomlasv@gmail.com",
         "name":"nomlas",
-        "url":""
+        "url":"https://x.com/nomlasvrc"
     },
     "description":"VPM listing of nomlas's packages",
     "infoLink":{
@@ -14,15 +13,6 @@
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "nomlasvrc/TopazChat"
-    ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
-        }
+        "https://github.com/nomlasvrc/TopazChat"
     ]
 }
