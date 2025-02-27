@@ -8,11 +8,11 @@
     },
     "description":"VPM listing of nomlas's packages",
     "infoLink":{
-        "url":"http://github.com/nomlasvrc/nomlas-package-listing",
+        "url":"https://github.com/nomlasvrc/nomlas-package-listing",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "https://github.com/nomlasvrc/TopazChat"
+        "nomlasvrc/TopazChat"
     ]
 }
