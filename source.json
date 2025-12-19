@@ -7,16 +7,10 @@
         "url":"https://x.com/nomlasvrc"
     },
     "description":"VPM listing of nomlas's packages",
-    "infoLink":[
-        {
+    "infoLink":{
         "url":"https://nomlas.booth.pm/",
         "text":"BOOTH"
-        },
-        {
-        "url":"https://github.com/nomlasvrc",
-        "text":"GitHub"
-        }
-    ],
+    },
     "bannerUrl":"banner.png",
     "githubRepos":[
         "nomlasvrc/TopazChat",
