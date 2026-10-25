@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v7 # check out automation repo
         with:
           repository: nomlasvrc/package-list-action
-          path: ${{env.pathToCi}}
+          path: 
           clean: false # otherwise the local repo will no longer be checked out
           
       - name: Restore Cache
