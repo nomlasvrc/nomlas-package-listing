@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v7 # check out automation repo
         with:
           repository: nomlasvrc/package-list-action
-          path: 
+          path: ${{env.pathToCi}}
           clean: false # otherwise the local repo will no longer be checked out
           
       - name: Restore Cache
@@ -46,7 +46,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/global.json', '**/*.csproj') }}
           
       - name: Build Package Version Listing
-        run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory $GITHUB_WORKSPACE/${{env.listPublishDirectory}}
+        run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory ${{env.listPublishDirectory}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
